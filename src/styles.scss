@@ -1,0 +1,483 @@
+    /* You can add global styles to this file, and also import other style files */
+    /* Importing Bootstrap SCSS file. */
+    
+    @import '~bootstrap/scss/bootstrap';
+    // @import url('assets/lib/reboundgen/dist/_animations.scss');
+    @font-face {
+        font-family: ReggaeOne;
+        src: url('assets/font/ReggaeOne-Regular.ttf');
+        font-display: swap;
+    }
+    
+     :root.dark {
+        --background-page: #121212;
+        --color-background-flower: #0a0a0a;
+        --background-sections: #1d1d1d;
+        --background-cajon: #1d1d1d;
+        --text-color-page: #ffffff;
+        --color-uno: #283a49;
+        --color-dos: #FF7500;
+        --color-ocho: #FF7F00;
+        --color-tres: #6120da;
+        //Intagram 
+        --instagram-sombra: #006bff;
+        --facebook-sombra: #006bff;
+        --whatsapp-sombra: #006bff;
+        --progress: #140093;
+        --playStop: #141414;
+        --playStop-hover: #030303;
+        --volume: rgba(255, 255, 255, 0);
+        --volume-hover: #fdfdfd;
+        --volume-color: #121212;
+        --background-poup-range: #262d32;
+        --background-reproductor: #1b1b1b;
+        --background-image-reproductor: "https://i.scdn.co/image/ab67616d00001e02b4970974d42cf1086f30edf4";
+        --primero-title: white;
+        --segundo-title: #121212;
+        --subtitle: white;
+        // --fondo-info: linear-gradient(90deg, #000000 0%, #194149 42%, #194149 92%);
+        --fondo-info: #121212;
+        //Reproductor
+        --progress-background: #1b1b1b;
+        --text-color-reproductor: white;
+        --progress-background-color: #8eeeff;
+        //Sol
+        --sol-color: #4e4848;
+        --sol-sombra: #979fa0;
+        //botones redes sociales
+        --social-network: #121212;
+        --social-network-hover: #262626;
+        --social-network-color: white;
+    }
+    
+    tspan {
+        font-family: ReggaeOne !important;
+        fill: white;
+    }
+    
+    .btn-volume:hover {
+        background-color: var(--volume-hover);
+        color: var(--volume-color);
+    }
+    
+     :root.light {
+        --background-page: #f3f6f9;
+        --color-background-flower: #121212;
+        --background-sections: #e1e8fb;
+        --background-cajon: #0a1929;
+        --text-color-page: #141414;
+        --color-uno: #283a49;
+        --color-dos: #FF7500;
+        --color-ocho: #FF7F00;
+        --color-tres: #6120da;
+        //Intagram 
+        --instagram-sombra: #ff1900bb;
+        --facebook-sombra: #006bff;
+        --whatsapp-sombra: #006bff;
+        --progress: #5a7da1;
+        --playStop: #141414;
+        --playStop-hover: #030303;
+        --volume: rgba(255, 255, 255, 0);
+        --volume-hover: #121212;
+        --volume-color: white;
+        --background-poup-range: #e0e8f5;
+        --background-reproductor: #e1e8fb;
+        --background-image-reproductor: "https://i.scdn.co/image/ab67616d00001e02b4970974d42cf1086f30edf4";
+        --primero-title: #0a1929;
+        --segundo-title: #e0e8fa;
+        --tercero-title: white;
+        --subtitle: white;
+        // --fondo-info: linear-gradient(90deg, #000000 0%, #194149 42%, #194149 92%);
+        --fondo-info: #e0e8f5;
+        //Reproductor
+        --progress-background: #bec4d3;
+        --text-color-reproductor: #141414;
+        --progress-background-color: #9fa4a9;
+        //Sol
+        --sol-color: #c65001;
+        --sol-sombra: #ecb52d;
+        //botones redes sociales
+        --social-network: #0a1929;
+        --social-network-hover: #122e4d;
+        --social-network-color: white;
+    }
+    
+    .btn-volume:hover {
+        background-color: var(--volume-hover);
+        color: var(--volume-color);
+    }
+    
+    tspan {
+        font-family: ReggaeOne !important;
+        fill: var(--text-color-page) !important;
+    }
+    
+    body {
+        background: var(--background-page);
+        overflow-x: hidden !important;
+        // background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    
+    //Reproductor
+    .section-reproductor {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        color: var(--text-color-reproductor) !important;
+        background-color: var(--background-reproductor) !important;
+    }
+    
+    .font-reggae {
+        font-family: ReggaeOne !important;
+    }
+    
+    #r12 {
+        filter: blur(2px);
+    }
+    
+    #r13 {
+        filter: blur(2px);
+    }
+    
+    #r1 {
+        filter: blur(3px);
+    }
+    
+    .padre-flex {
+        background-image: url(assets/svg/fondo.svg);
+        background-color: #000000;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .padre-flex>div {
+        text-align: center;
+    }
+    
+    .Welcome {
+        height: 100vh;
+    }
+    
+    .socialNetworks {
+        height: 300px;
+        width: 40px;
+        position: fixed;
+        bottom: 0px;
+        left: 1px;
+        right: auto;
+        z-index: 10;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    #sombraInstagram:hover {
+        --instagram-sombra: #faed27;
+    }
+    
+    #sombraWhatsapp:hover {
+        --whatsapp-sombra: #faed27;
+    }
+    
+    #sombrafacebook:hover {
+        --facebook-sombra: #faed27;
+    }
+    
+    .cajon-neon {
+        // box-shadow: 0px 0px 6px 4px rgb(192, 192, 192);
+        background-color: var(--background-cajon);
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+    }
+    
+    .title:hover {
+        --primero-title: #00f7d6;
+        --segundo-title: #da0037;
+        --tercero-title: #0c00ad;
+        --subtitle: #00f7d6;
+    }
+    
+    .fondo-title {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        background: var(--background-sections);
+    }
+    
+    .fondo-complement {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        background: var(--background-sections);
+    }
+    
+    .section-two-first {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        background: var(--background-sections);
+        background-image: url('assets/svg/music-art.svg');
+    }
+    
+    .section-two-second {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        background: var(--background-sections);
+        background-image: url('assets/svg/fondoElectro.svg');
+    }
+    
+    .section-social-network-movil {
+        box-shadow: 2px 2px 1px 0px rgb(126 126 126 / 35%), 0 3px 6px rgb(153 153 153 / 55%);
+        background: var(--background-sections);
+    }
+    /* Make the element pulse (grow large and small slowly) */
+    /* Usage
+    .myElement {
+        animation: pulsate 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 1; 
+    }
+*/
+    
+    @keyframes pulsate {
+        0% {
+            -webkit-transform: scale(0.1, 0.1);
+            opacity: 0.0;
+        }
+        50% {
+            opacity: 1.0;
+        }
+        100% {
+            -webkit-transform: scale(1.2, 1.2);
+            opacity: 0.0;
+        }
+    }
+    /* Make the element's opacity pulse*/
+    
+    .opacityPulse {
+        animation: opacityPulse 3s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0;
+    }
+    
+    @keyframes opacityPulse {
+        0% {
+            opacity: 0.0;
+        }
+        25% {
+            opacity: 0.5;
+        }
+        50% {
+            opacity: 1.0;
+        }
+        75% {
+            opacity: 1.5;
+        }
+        100% {
+            opacity: 0.0;
+        }
+    }
+    /* Make the element's background pulse. I call this alertPulse because it is red. You can call it something more generic. */
+    /* Usage
+    .myElement {
+        animation: alertPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 1; 
+    }
+*/
+    
+    @keyframes alertPulse {
+        0% {
+            background-color: #9A2727;
+            opacity: 1;
+        }
+        50% {
+            opacity: red;
+            opacity: 0.75;
+        }
+        100% {
+            opacity: #9A2727;
+            opacity: 1;
+        }
+    }
+    /* Make the element rotate infinitely. */
+    
+    // #g1003 {
+    //     animation: rotate 1.4s linear infinite;
+    //     -webkit-animation: rotate 1.4s linear infinite;
+    //     -moz-animation: rotate 1.4s linear infinite;
+    //     position: relative;
+    // }
+    @keyframes rotating {
+        from {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        to {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    
+    @keyframes rotate {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    @-webkit-keyframes rotate {
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    @-moz-keyframes rotate {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .reprductor {
+        background: #000000;
+        border-radius: 15px;
+        height: 45px;
+        width: auto;
+        margin-bottom: 4px;
+        caret-color: transparent;
+    }
+    
+    button.icon {
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 50% !important;
+        padding: 0 !important;
+    }
+    
+    button.icon-skip {
+        width: 52px !important;
+        height: 52px !important;
+        border-radius: 50% !important;
+        padding: 0 !important;
+    }
+    
+    a.icon {
+        width: 52px !important;
+        height: 52px !important;
+        border-radius: 50% !important;
+    }
+    
+    .btn-playStop {
+        color: white;
+        background-color: var(--playStop);
+        border-color: var(--playStop);
+    }
+    
+    .btn-playStop:hover {
+        color: white;
+        background-color: var(--playStop-hover);
+        border-color: var(--playStop-hover);
+    }
+    
+    .btn-skip {
+        color: white;
+        background-color: var(--playStop-hover);
+        border-color: var(--playStop-hover);
+    }
+    
+    .btn-skip:hover {
+        color: white;
+        background-color: var(--playStop);
+        border-color: var(--playStop);
+    }
+    
+    .btn-volume {
+        color: var(--text-color);
+        background-color: var(--volume);
+        border-color: var(--volume);
+    }
+    
+    .btn-volume:focus {
+        box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+    }
+    
+    .btn-social-network {
+        color: var( --social-network-color);
+        background-color: var(--social-network);
+        border-color: var(--social-network);
+    }
+    
+    .btn-social-network:hover {
+        color: var( --social-network-color);
+        background-color: var(--social-network-hover);
+        border-color: var(--social-network-hover);
+    }
+    
+    .btn-social-network:focus {
+        box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%) !important;
+    }
+    
+    .content-range {
+        padding: 2px !important;
+        caret-color: transparent;
+    }
+    
+    .container-range {
+        backdrop-filter: blur(2px);
+    }
+    
+    .popup-input-range {
+        padding: 0px !important;
+        background-color: var(--background-poup-range) !important;
+    }
+    
+    .input-range-volume input {
+        height: 12.625em !important;
+        -webkit-appearance: slider-vertical !important;
+        // --moz-appearance: slider-vertical !important;
+        // transform: rotate(-90deg);
+        // transform: rotateZ(270deg);
+        --moz-transform: rotate(270deg);
+        position: static;
+        padding: 0px !important;
+    }
+    
+    .input-range-volume {
+        display: block !important;
+        background: transparent !important;
+    }
+    
+    .input-range-volume output {
+        display: none;
+    }
+    
+    .ripple {
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(0, 0, 0)
+    }
+    
+    .ripple:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-image: radial-gradient(circle, #000, var(--light) 8%, transparent 10.01%);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        transform: scale(12, 12);
+        opacity: 0;
+        transition: transform .5s, opacity 1s
+    }
+    
+    .ripple:active:after {
+        transform: scale(0, 0);
+        opacity: .2;
+        transition: 0s
+    }

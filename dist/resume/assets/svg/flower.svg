@@ -1,0 +1,244 @@
+<svg version="1.1" width="100000" height="600" viewBox="0 0 320 320" fill="none" stroke="#000" stroke-linecap="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <path id="r1" stroke="#ff073a">
+        <animate id="p2" attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1"/>
+        <animate attributeName="stroke-width" values="12;12;12;12;12" dur="10s" repeatCount="1" begin="p1.begin"/>
+          <animate
+              id="light_1"
+              attributeName="fill-opacity"
+              values="1;0"
+              dur="1s"
+              begin="0s;light_2.end+0.5s"/>
+          <animate
+              id="light_2"
+              attributeName="fill-opacity"
+              values="0;1"
+              dur="1s"
+              begin="light_1.end"/>
+      </path>
+      <path id="r11" stroke="#FFFFFF">
+        <animate id="p3" attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1"/>
+        <animate attributeName="stroke-width" values="2;2;6;8;8" dur="10s" repeatCount="1" begin="p1.begin"/>
+      </path>
+      <path id="r12" stroke="#00ffff">
+          <animate id="p1" attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1"/>
+          <animate attributeName="stroke-width" values="13;14;16;17;18" dur="10s" repeatCount="1" begin="p1.begin"/>
+          <animate
+          id="light_1"
+          attributeName="stroke-opacity"
+          values="1;0"
+          dur="1s"
+          begin="0s;light_2.end+0.5s"/>
+        <animate
+          id="light_2"
+          attributeName="stroke-opacity"
+          values="0;1"
+          dur="1s"
+          begin="light_1.end"/>
+      </path>
+      <path id="r13" stroke="#00ffff">
+          <animate id="p1" attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-32 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1"/>
+          <animate attributeName="stroke-width" values="13;14;16;17;18" dur="10s" repeatCount="1" begin="p1.begin"/>
+          <animate
+          id="light_1"
+          attributeName="stroke-opacity"
+          values="1;0"
+          dur="1s"
+          begin="0s;light_2.end+0.5s"/>
+        <animate
+          id="light_2"
+          attributeName="stroke-opacity"
+          values="0;1"
+          dur="1s"
+          begin="light_1.end"/>
+      </path>
+      <path id="r2"  stroke="#00ffff">
+        <animate attributeName="d" values="m160,160l0,0 0,0;m100,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+1s"/>
+        <animate attributeName="stroke-width" values="0;8;8;8;0" dur="10s" repeatCount="1" begin="p1.begin+1s"/>
+      </path>
+      <path id="r3" stroke="#00ffff">
+        <animate attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+2s"/>
+        <animate attributeName="stroke-width" values="0;10;10;10;0" dur="10s" repeatCount="1" begin="p1.begin+2s"/>
+      </path>
+
+      <path id="r4" stroke="#ff073a">
+        <animate id="p1" attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;10;10;10;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+      <path id="r4-i" stroke="#FFFFFF">
+        <animate  attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;4;4;4;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+
+      <path id="r4-b" stroke="#edff21">
+        <animate  attributeName="d" values="m160,160l0,0 0,0;m130,110l30,-17 30,17;m130,60l30,-17 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;18;18;18;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate
+        id="light_1"
+        attributeName="stroke-opacity"
+        values="1;0"
+        dur="1s"
+        begin="0s;light_2.end+0.5s"/>
+      <animate
+        id="light_2"
+        attributeName="stroke-opacity"
+        values="0;1"
+        dur="1s"
+        begin="light_1.end"/>
+      </path>
+
+      <path id="r41" stroke="#ff073a">
+        <animate  attributeName="d" values="m160,160l0,0 0,0;m200,110l30,-17 30,17;m130,60l30,30 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;10;10;10;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+
+      <path id="r41-i" stroke="#FFFFFF">
+        <animate  attributeName="d" values="m160,160l0,0 0,0;m200,110l30,-17 30,17;m130,60l30,30 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;4;4;4;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+
+      <path id="r41-b" stroke="#edff21">
+        <animate  attributeName="d" values="m160,160l0,0 0,0;m200,110l30,-17 30,17;m130,60l30,30 30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;18;18;18;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate
+        id="light_1"
+        attributeName="stroke-opacity"
+        values="1;0"
+        dur="1s"
+        begin="0s;light_2.end+0.5s"/>
+      <animate
+        id="light_2"
+        attributeName="stroke-opacity"
+        values="0;1"
+        dur="1s"
+        begin="light_1.end"/>
+      </path>
+      <path id="r42" stroke="#ff073a">
+        <animate attributeName="d" values="m160,160l0,0 0,0;m60,110l30,-17   30,17;m190,60l-30,30 -30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;10;10;10;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+
+      <path id="r42-i" stroke="#FFFFFF">
+        <animate attributeName="d" values="m160,160l0,0 0,0;m60,110l30,-17   30,17;m190,60l-30,30 -30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;4;4;4;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+      </path>
+
+      <path id="r42-b" stroke="#edff21">
+        <animate attributeName="d" values="m160,160l0,0 0,0;m60,110l30,-17   30,17;m190,60l-30,30 -30,17;m160,20l0,0 0,0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate attributeName="stroke-width" values="0;18;18;18;0" dur="10s" repeatCount="1" begin="p1.begin+3s"/>
+        <animate
+        id="light_1"
+        attributeName="stroke-opacity"
+        values="1;0"
+        dur="1s"
+        begin="0s;light_2.end+0.5s"/>
+      <animate
+        id="light_2"
+        attributeName="stroke-opacity"
+        values="0;1"
+        dur="1s"
+        begin="light_1.end"/>
+      </path>
+    </defs>
+    <use xlink:href="#r13"/>
+    <use xlink:href="#r13" transform="rotate(60 160 160)"/>
+    <use xlink:href="#r13" transform="rotate(120 160 160)"/>
+    <use xlink:href="#r13" transform="rotate(180 160 160)"/>
+    <use xlink:href="#r13" transform="rotate(240 160 160)"/>
+    <use xlink:href="#r13" transform="rotate(300 160 160)"/>
+    <use xlink:href="#r12"/>
+    <use xlink:href="#r12" transform="rotate(60 160 160)"/>
+    <use xlink:href="#r12" transform="rotate(120 160 160)"/>
+    <use xlink:href="#r12" transform="rotate(180 160 160)"/>
+    <use xlink:href="#r12" transform="rotate(240 160 160)"/>
+    <use xlink:href="#r12" transform="rotate(300 160 160)"/>
+    <use xlink:href="#r1"/>
+    <use xlink:href="#r1" transform="rotate(60 160 160)"/>
+    <use xlink:href="#r1" transform="rotate(120 160 160)"/>
+    <use xlink:href="#r1" transform="rotate(180 160 160)"/>
+    <use xlink:href="#r1" transform="rotate(240 160 160)"/>
+    <use xlink:href="#r1" transform="rotate(300 160 160)"/>
+    <use xlink:href="#r11"/>
+    <use xlink:href="#r11" transform="rotate(60 160 160)"/>
+    <use xlink:href="#r11" transform="rotate(120 160 160)"/>
+    <use xlink:href="#r11" transform="rotate(180 160 160)"/>
+    <use xlink:href="#r11" transform="rotate(240 160 160)"/>
+    <use xlink:href="#r11" transform="rotate(300 160 160)"/>
+  
+    <use xlink:href="#r2" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r2" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r2" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r2" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r2" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r2" transform="rotate(330 160 160)"/>
+    <use xlink:href="#r3"/>
+    <use xlink:href="#r3" transform="rotate(60 160 160)"/>
+    <use xlink:href="#r3" transform="rotate(120 160 160)"/>
+    <use xlink:href="#r3" transform="rotate(180 160 160)"/>
+    <use xlink:href="#r3" transform="rotate(240 160 160)"/>
+    <use xlink:href="#r3" transform="rotate(300 160 160)"/>
+
+    <use xlink:href="#r4-b" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r4-b" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r4-b" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r4-b" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r4-b" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r4-b" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r4" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r4" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r4" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r4" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r4" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r4" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r4-i" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r4-i" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r4-i" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r4-i" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r4-i" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r4-i" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r41-b" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r41-b" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r41-b" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r41-b" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r41-b" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r41-b" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r41" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r41" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r41" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r41" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r41" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r41" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r41-i" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r41-i" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r41-i" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r41-i" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r41-i" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r41-i" transform="rotate(330 160 160)"/>
+    
+
+    <use xlink:href="#r42-b" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r42-b" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r42-b" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r42-b" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r42-b" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r42-b" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r42" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r42" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r42" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r42" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r42" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r42" transform="rotate(330 160 160)"/>
+
+    <use xlink:href="#r42-i" transform="rotate(30 160 160)"/>
+    <use xlink:href="#r42-i" transform="rotate(90 160 160)"/>
+    <use xlink:href="#r42-i" transform="rotate(150 160 160)"/>
+    <use xlink:href="#r42-i" transform="rotate(210 160 160)"/>
+    <use xlink:href="#r42-i" transform="rotate(270 160 160)"/>
+    <use xlink:href="#r42-i" transform="rotate(330 160 160)"/>
+   </svg>

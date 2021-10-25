@@ -1,0 +1,151 @@
+{
+  "configVersion": 1,
+  "timestamp": 1634253728896,
+  "index": "/site/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/site/4.bc7c4091d5154cf79048.js",
+        "/site/5.8c72e7da46a1e58733a6.js",
+        "/site/favicon.ico",
+        "/site/index.html",
+        "/site/main.3dfb6938f4c4afe684f8.js",
+        "/site/manifest.webmanifest",
+        "/site/polyfills.3116b8e9dbb90fea460e.js",
+        "/site/runtime.65becf751369ec05ead8.js",
+        "/site/styles.d73af6271deb07ce6fcd.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/site/ReggaeOne-Regular.25085ba95c26015cc9ff.ttf",
+        "/site/assets/audio/A_punetazos_con_los_Abrazos.mp3",
+        "/site/assets/audio/AlanWalker_SweetDreamsft.Imanbek.mp3",
+        "/site/assets/audio/Aun_estas_en_mis_suenos.mp3",
+        "/site/assets/audio/Devorando_Corazon.mp3",
+        "/site/assets/audio/WarCry_Nana.mp3",
+        "/site/assets/audio/callejeros_creo.mp3",
+        "/site/assets/font/ReggaeOne-Regular.ttf",
+        "/site/assets/icons/icon-128x128.png",
+        "/site/assets/icons/icon-144x144.png",
+        "/site/assets/icons/icon-152x152.png",
+        "/site/assets/icons/icon-192x192.png",
+        "/site/assets/icons/icon-384x384.png",
+        "/site/assets/icons/icon-512x512.png",
+        "/site/assets/icons/icon-72x72.png",
+        "/site/assets/icons/icon-96x96.png",
+        "/site/assets/images/rect815.png",
+        "/site/assets/images/startPlayer.png",
+        "/site/assets/lib/css/animate.css",
+        "/site/assets/lib/css/hover.css",
+        "/site/assets/lib/js/color-thief.umd.js",
+        "/site/assets/svg/Start2.svg",
+        "/site/assets/svg/arrowTop.svg",
+        "/site/assets/svg/circulomusic.svg",
+        "/site/assets/svg/elctro.svg",
+        "/site/assets/svg/flower.svg",
+        "/site/assets/svg/fondo.svg",
+        "/site/assets/svg/fondoElectro.svg",
+        "/site/assets/svg/gustos.svg",
+        "/site/assets/svg/gustos2.svg",
+        "/site/assets/svg/ilustracionleft - copia.svg",
+        "/site/assets/svg/ilustracionleft.svg",
+        "/site/assets/svg/instagramNeon.svg",
+        "/site/assets/svg/music-art.svg",
+        "/site/assets/svg/nombre.svg",
+        "/site/assets/svg/nombreInicio.svg",
+        "/site/assets/svg/presentacion.svg",
+        "/site/assets/svg/whatsappNeon.svg",
+        "/site/fondo.8e195464afda069ac1b1.svg",
+        "/site/fondoElectro.47af6d70932a5f83283c.svg",
+        "/site/music-art.adbcc537631a4c810b14.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/site/4.bc7c4091d5154cf79048.js": "0d4aa285ded27a4aadf62641c2eb9d9a20965d2c",
+    "/site/5.8c72e7da46a1e58733a6.js": "d5570fea8ee5167eec8753216caf87d0ad4ba909",
+    "/site/ReggaeOne-Regular.25085ba95c26015cc9ff.ttf": "04647af8b904d544d8db720b3f342627acacd5a3",
+    "/site/assets/audio/A_punetazos_con_los_Abrazos.mp3": "3f1be0183470792a8bc175c829583bae54120f60",
+    "/site/assets/audio/AlanWalker_SweetDreamsft.Imanbek.mp3": "9c1548725d2d81f89788c84593c0d8aa138114f1",
+    "/site/assets/audio/Aun_estas_en_mis_suenos.mp3": "9cd097f9d7adf3efaec077db2a819085dd2a753d",
+    "/site/assets/audio/Devorando_Corazon.mp3": "ac1b28c8bdc096fbe7a91ab42a1ecc501e4e725e",
+    "/site/assets/audio/WarCry_Nana.mp3": "246d6248b826ad93c9099d684277788caa557457",
+    "/site/assets/audio/callejeros_creo.mp3": "54d8c04dace9a5623cf4cb361cff04f39a132438",
+    "/site/assets/font/ReggaeOne-Regular.ttf": "04647af8b904d544d8db720b3f342627acacd5a3",
+    "/site/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/site/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/site/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/site/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/site/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/site/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/site/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/site/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/site/assets/images/rect815.png": "058e46bc4c69c18cd11294c9b6eb3e4cf7ea501a",
+    "/site/assets/images/startPlayer.png": "f43595fe77a9e8f838f0e9d830bb0c15596f215e",
+    "/site/assets/lib/css/animate.css": "d5fcd51ca2486f5c5b3ebe9f8f24a90a5e65e4a9",
+    "/site/assets/lib/css/hover.css": "1854d22aba15778de99441b773874fdd83a2a0f4",
+    "/site/assets/lib/js/color-thief.umd.js": "5669cfcdece992169b36d48ad2da9eacd7ad7d91",
+    "/site/assets/svg/Start2.svg": "5d85f1d6f4f4c86cb425d75e125a687bdaec12c1",
+    "/site/assets/svg/arrowTop.svg": "b619eb32a3f80d3265b8e25f50d60891ee6d47f1",
+    "/site/assets/svg/circulomusic.svg": "7ec32174d47470deac5ef460d5193d23b2540d88",
+    "/site/assets/svg/elctro.svg": "373eb3b16b242ecbbe42c1fa5953cb1954ec9386",
+    "/site/assets/svg/flower.svg": "be8368ba87446b36c38bc1cba9ee2de5de20d75e",
+    "/site/assets/svg/fondo.svg": "c99383e6fac1ed67fa618c38a8f8db3da51bd242",
+    "/site/assets/svg/fondoElectro.svg": "9a9bcc80f65ad5e94053e825d10f3e16ce90e34a",
+    "/site/assets/svg/gustos.svg": "dac913c2750805395f83bdf50f25f6a00861bbee",
+    "/site/assets/svg/gustos2.svg": "eaedd3ae43940b69ecde336697e58c5de9a9f7e5",
+    "/site/assets/svg/ilustracionleft - copia.svg": "8de33e0db2e6c75bdd4e7dc17d776d32ccb7d857",
+    "/site/assets/svg/ilustracionleft.svg": "6dd20774f7f0d41cde7a9ec0cfe2faabab9fd4ae",
+    "/site/assets/svg/instagramNeon.svg": "1b9bfb2555884aa0043cd27aed812ffff0de2c18",
+    "/site/assets/svg/music-art.svg": "0571763d264467385e2675b94961b6563c9edd9d",
+    "/site/assets/svg/nombre.svg": "1c6992302587a3bd29fa8b7ddcc28b30dece670a",
+    "/site/assets/svg/nombreInicio.svg": "569b48ab681eee3dc11f0947e7ac10b182cce358",
+    "/site/assets/svg/presentacion.svg": "1842f257b668f6b203a2a0a23909b0bb7260e94e",
+    "/site/assets/svg/whatsappNeon.svg": "a2c93f8c67b56109c4eeb011dd7d258a8e59b1f8",
+    "/site/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/site/fondo.8e195464afda069ac1b1.svg": "c99383e6fac1ed67fa618c38a8f8db3da51bd242",
+    "/site/fondoElectro.47af6d70932a5f83283c.svg": "9a9bcc80f65ad5e94053e825d10f3e16ce90e34a",
+    "/site/index.html": "a5f4840570947272b99211e40b6768e9cc5e08df",
+    "/site/main.3dfb6938f4c4afe684f8.js": "5f6904194e6134ab6e6442b8703d11b3eb57c8a2",
+    "/site/manifest.webmanifest": "9dc1a62b44a6a712003ff54bf44ced573932b7a5",
+    "/site/music-art.adbcc537631a4c810b14.svg": "0571763d264467385e2675b94961b6563c9edd9d",
+    "/site/polyfills.3116b8e9dbb90fea460e.js": "0d003992512d28c544b0a972ce2ae6b28ebbf5f6",
+    "/site/runtime.65becf751369ec05ead8.js": "c39fd0b7c643a52957007881495d06469db8a99f",
+    "/site/styles.d73af6271deb07ce6fcd.css": "b786b3ffc2bc3b29108a500d7fa8023c3a9c9d1c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
